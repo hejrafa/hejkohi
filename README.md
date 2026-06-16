@@ -1,10 +1,12 @@
 # hejkohi
 
-Interactive concept site and early-stage business plan for `hejkohi`, a Scandinavian-Japanese specialty coffee shop idea.
+Simple site shell for `hejkohi` with a root landing page and a working business-plan draft.
 
 ## What is in here
 
-- `index.html`, `styles.css`, `script.js`: the website
+- `index.html`: centered `hej` logo linking to `hejrafa.com`
+- `business-plan/index.html`: working business-plan draft
+- `styles.css`: shared styling for the root page and business-plan page
 - `assets/`: visual assets derived from the updated brand guide
 - `references/`: source PDFs and Affinity file used as reference material
 
@@ -24,13 +26,10 @@ http://localhost:4174/
 
 ## Current scope
 
-This first version combines:
+Current structure:
 
-- brand story and concept positioning
-- guest experience and visual direction
-- audience and market thesis
-- first-site business model
-- interactive scenario assumptions
-- investment framing for partner conversations
+- root homepage with centered `hej` mark
+- `/business-plan/` route with the content draft
+- redirects from the older stub pages into `/business-plan/`
 
-The financial assumptions are working discussion inputs, not a finished underwriting model.
+The business-plan content is still a draft. Founder story, city-specific market research, and a defensible financial model still need another pass before it is investor-ready.
